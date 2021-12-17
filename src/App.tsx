@@ -12,6 +12,13 @@ const App = () => {
       <NavBar />
 
       <div className="main">
+        <img
+          className="hero-image"
+          src="/images/hero.jpg"
+          alt="leaves-left"
+          width="100%"
+          height="auto"
+        />
         <p>Main</p>
       </div>
 
