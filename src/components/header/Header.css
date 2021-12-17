@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.header-h1 {
+  font-family: Apple Chancery;
+  font-size: 40px;
+  font-weight: bold;
+  color: #a87992;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.header-h2 {
+  font-family: Palatino;
+  font-size: 18px;
+  color: #a87992;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.header-h3 {
+  font-family: Palatino;
+  font-size: 18px;
+  color: #a87992;
+  margin: 0px;
+  margin-bottom: 20px;
+}
