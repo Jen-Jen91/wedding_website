@@ -1,4 +1,13 @@
 .nav-bar {
-  background-color: red;
+  background-color: #347474;
   display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  align-items: center;
+}
+
+.nav-link {
+  color: #f7f3f1;
+  font-family: Palatino;
+  font-weight: bold;
 }
