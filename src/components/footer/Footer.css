@@ -7,7 +7,9 @@
   justify-content: space-between;
 }
 
-p {
+.footer-copyright-text,
+.footer-name-text,
+.footer-venue-text {
   color: #f7f3f1;
   font-family: Palatino;
   font-size: 12px;
