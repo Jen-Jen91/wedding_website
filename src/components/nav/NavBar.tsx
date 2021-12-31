@@ -14,7 +14,7 @@ const NavBar = () => {
         Wedding
       </a>
       <a className="nav-link" href="#Venue">
-        Venue
+        Venue & Accommodation
       </a>
       <a className="nav-link" href="#Travel">
         Travel
