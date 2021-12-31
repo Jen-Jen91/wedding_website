@@ -5,14 +5,19 @@ import NavBar from "./components/nav/NavBar";
 import Section from "./components/section/Section";
 import Footer from "./components/footer/Footer";
 
+// TODO: shrink hero image (use banner of 3 images)
+// TODO: style and center sections
+// TODO: add custom font
+// TODO: adapt styles and font sizes for screen width
+
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
 
       <NavBar />
 
-      <div className="main">
+      <main className="main">
         <img
           className="hero-image"
           src="/images/hero.jpg"
@@ -143,10 +148,10 @@ const App = () => {
             </a>
           </p>
         </Section>
-      </div>
+      </main>
 
       <Footer />
-    </div>
+    </>
   );
 };
 

@@ -12,11 +12,10 @@ const Section = (props: ISectionProps) => {
 
   return (
     <section id={sectionId}>
-      <a id={linkId} rel="nofollow"></a>
-      <div>
+      <a id={linkId} rel="nofollow">
         <h2>{header}</h2>
-        {children}
-      </div>
+      </a>
+      {children}
     </section>
   );
 };
