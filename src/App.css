@@ -4,12 +4,6 @@
   flex-direction: column;
 }
 
-.hero-image {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .map {
   border: none;
 }

@@ -2,10 +2,10 @@ import "./App.css";
 
 import Header from "./components/header/Header";
 import NavBar from "./components/nav/NavBar";
+import Hero from "./components/hero/Hero";
 import Section from "./components/section/Section";
 import Footer from "./components/footer/Footer";
 
-// TODO: shrink hero image (use banner of 3 images)
 // TODO: style and center sections
 // TODO: add custom font
 // TODO: adapt styles and font sizes for screen width
@@ -17,15 +17,9 @@ const App = () => {
 
       <NavBar />
 
-      <main className="main">
-        <img
-          className="hero-image"
-          src="/images/hero.jpg"
-          alt="jen-and-tomek"
-          width="100%"
-          height="auto"
-        />
+      <Hero />
 
+      <main className="main">
         <Section sectionId="home" linkId="Home" header="Home">
           <p>Welcome to our wedding website!</p>
           <p>
