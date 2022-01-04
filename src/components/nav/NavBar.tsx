@@ -1,7 +1,4 @@
-import React from "react";
 import "./NavBar.css";
-
-// TODO: stick to top of page when scrolling down
 
 const NavBar = () => {
   return (

@@ -1,4 +1,3 @@
-import React from "react";
 import "./Header.css";
 
 // TODO: merge with navbar when scrolling down page
