@@ -5,9 +5,7 @@
   align-items: center;
   justify-content: space-evenly;
   height: 50px;
-  border-top: #05390a 2px solid;
-  border-bottom: #05390a 2px solid;
-  background-color: #f5f5f5;
+  background-color: #829c85;
 }
 
 .nav-link {
@@ -15,9 +13,9 @@
   font-family: Apple Chancery;
   font-weight: bold;
   text-decoration: none;
-  color: #05390a;
+  color: #ffffff;
 }
 
 .nav-link:hover {
-  color: #829c85;
+  color: #446b48;
 }

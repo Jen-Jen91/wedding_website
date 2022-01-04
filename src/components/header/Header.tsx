@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <header className="header">
       <img
-        src="/images/autumn-leaves-left.png"
+        src="/images/leaves-left.png"
         alt="leaves-left"
-        width="350"
-        height="250"
+        width="400"
+        height="180"
       />
       <header>
         <h1 className="header-h1">Jen & Tomek Wedding</h1>
@@ -17,10 +17,10 @@ const Header = () => {
         <h3 className="header-h3">Cambo Estate</h3>
       </header>
       <img
-        src="/images/autumn-leaves-right.png"
+        src="/images/leaves-right.png"
         alt="leaves-right"
-        width="350"
-        height="250"
+        width="400"
+        height="180"
       />
     </header>
   );
