@@ -7,7 +7,7 @@ const Header = () => {
         src="/images/leaves-left.png"
         alt="leaves-left"
         width="300"
-        height="150"
+        height="200"
       />
       <header>
         <h1 className="header-h1">Jen & Tomek Wedding</h1>
@@ -18,7 +18,7 @@ const Header = () => {
         src="/images/leaves-right.png"
         alt="leaves-right"
         width="300"
-        height="150"
+        height="200"
       />
     </header>
   );
