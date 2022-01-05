@@ -92,12 +92,19 @@ const App = () => {
             Traditional manor house with an eccentric style, a walled garden,
             woodland walks, and a lovely beach.
           </p>
+          <a href="https://www.camboestate.com/">www.camboestate.com</a>
           <p>
             We'll have exclusive use of the estate for the night before and the
             night of the wedding. All guests are welcome to stay one or both
             nights with us on the grounds (there's room for everyone)!
           </p>
-          <a href="https://www.camboestate.com/">www.camboestate.com</a>
+
+          <div className="image-container">
+            <a href="https://www.camboestate.com/gallery">
+              <img src="/images/cambo.png" alt="cambo-estate" width="100%" />
+              <p className="image-text">Neil Thomas Douglas</p>
+            </a>
+          </div>
         </Section>
 
         <Section sectionId="travel" linkId="Travel" header="Travel">
