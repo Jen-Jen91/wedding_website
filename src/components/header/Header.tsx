@@ -1,7 +1,5 @@
 import "./Header.css";
 
-// TODO: merge with navbar when scrolling down page
-
 const Header = () => {
   return (
     <header className="header">

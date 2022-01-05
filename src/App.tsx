@@ -6,10 +6,6 @@ import Hero from "./components/hero/Hero";
 import Section from "./components/section/Section";
 import Footer from "./components/footer/Footer";
 
-// TODO: style and center sections
-// TODO: add custom font
-// TODO: adapt styles and font sizes for screen width
-
 const App = () => {
   return (
     <>
