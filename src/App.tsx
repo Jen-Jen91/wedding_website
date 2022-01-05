@@ -112,8 +112,8 @@ const App = () => {
           <iframe
             className="map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117112.85899146184!2d-2.770089990214859!3d56.29265202026646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4886f96bf7a8b2ff%3A0xd568ea835d0399fb!2sCambo%20Estate!5e0!3m2!1sen!2suk!4v1640792189669!5m2!1sen!2suk"
-            width="600"
-            height="450"
+            width="99%"
+            height="400px"
             loading="lazy"
           ></iframe>
         </Section>
