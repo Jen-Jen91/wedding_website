@@ -12,13 +12,13 @@
 .footer-name-text,
 .footer-venue-text {
   font-size: 12px;
-  font-family: Palatino;
+  font-family: Optima, sans-serif;
   text-decoration: none;
   color: #ffffff;
 }
 
 .footer-name-text {
-  font-size: 16px;
-  font-family: Apple Chancery;
+  font-size: 28px;
+  font-family: "Waterfall", cursive, serif;
   font-weight: bold;
 }

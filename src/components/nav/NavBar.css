@@ -6,13 +6,13 @@
   justify-content: space-evenly;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height: 50px;
+  padding-bottom: 3px;
   background-color: #829c85;
 }
 
 .nav-link {
   font-size: 18px;
-  font-family: Apple Chancery;
-  font-weight: bold;
+  font-family: Optima, sans-serif;
   text-decoration: none;
   color: #ffffff;
 }

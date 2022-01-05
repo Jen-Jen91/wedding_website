@@ -9,16 +9,16 @@
 .header-h2,
 .header-h3 {
   margin: 0px;
-  font-family: Palatino;
+  font-family: Optima, sans-serif;
+  font-weight: normal;
   color: #446b48;
 }
 
 .header-h1 {
   margin-top: 50px;
-  margin-bottom: 30px;
-  font-size: 40px;
-  font-family: Apple Chancery;
-  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 64px;
+  font-family: "Waterfall", cursive, serif;
 }
 
 .header-h2 {

@@ -6,8 +6,8 @@ const Header = () => {
       <img
         src="/images/leaves-left.png"
         alt="leaves-left"
-        width="400"
-        height="180"
+        width="300"
+        height="150"
       />
       <header>
         <h1 className="header-h1">Jen & Tomek Wedding</h1>
@@ -17,8 +17,8 @@ const Header = () => {
       <img
         src="/images/leaves-right.png"
         alt="leaves-right"
-        width="400"
-        height="180"
+        width="300"
+        height="150"
       />
     </header>
   );
