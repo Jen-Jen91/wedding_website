@@ -1,11 +1,12 @@
+import useWindowSize from "../../hooks/useWindowSize";
 import "./Header.css";
 
 const Header = () => {
-  const width = window.innerWidth;
+  const windowSize = useWindowSize();
 
   return (
     <header className="header">
-      {width >= 600 ? (
+      {windowSize.width >= 600 ? (
         <>
           <img
             className="header-img"
