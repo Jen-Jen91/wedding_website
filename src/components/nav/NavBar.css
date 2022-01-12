@@ -5,14 +5,18 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height: 50px;
+  max-height: 50px;
   padding-bottom: 3px;
   background-color: #829c85;
 }
 
 .nav-link {
-  font-size: 18px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 12px;
   font-family: Optima, sans-serif;
   text-decoration: none;
   color: #ffffff;
@@ -20,4 +24,22 @@
 
 .nav-link:hover {
   color: #446b48;
+}
+
+@media screen and (min-width: 520px) {
+  .nav-bar {
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (min-width: 670px) {
+  .nav-link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .nav-link {
+    font-size: 18px;
+  }
 }
