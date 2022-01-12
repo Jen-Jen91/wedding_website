@@ -1,4 +1,9 @@
 .hero-banner {
   display: flex;
   flex-direction: row;
+  justify-self: flex-start;
+}
+
+.hero-img {
+  align-self: flex-start;
 }
