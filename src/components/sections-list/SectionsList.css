@@ -8,7 +8,8 @@
 
 p,
 a {
-  font-family: Optima, Baskerville, Palatino, sans-serif;
+  font-size: 12px;
+  font-family: "Oxygen", "Trebuchet MS", sans-serif;
   color: #446b48;
 }
 
@@ -45,5 +46,9 @@ a {
 @media screen and (min-width: 1200px) {
   .map {
     min-height: 420px;
+  }
+  p,
+  a {
+    font-size: 17px;
   }
 }
