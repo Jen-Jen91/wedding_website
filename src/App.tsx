@@ -4,12 +4,16 @@ import Hero from "./components/hero/Hero";
 import SectionsList from "./components/sections-list/SectionsList";
 import Footer from "./components/footer/Footer";
 
+import useWindowSize from "./hooks/useWindowSize";
+
 const App = () => {
+  const windowSize = useWindowSize();
+
   return (
     <>
-      <Header />
+      <Header screenWidth={windowSize.width} />
 
-      <NavBar />
+      <NavBar screenWidth={windowSize.width} />
 
       <Hero />
 

@@ -13,6 +13,13 @@
   background-color: #829c85;
 }
 
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 .nav-link {
   margin-right: 5px;
   margin-left: 5px;
