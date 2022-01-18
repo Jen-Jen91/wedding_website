@@ -16,7 +16,7 @@
 .nav-link {
   margin-right: 5px;
   margin-left: 5px;
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Oxygen", "Trebuchet MS", sans-serif;
   text-decoration: none;
   color: #ffffff;
@@ -24,12 +24,6 @@
 
 .nav-link:hover {
   color: #446b48;
-}
-
-@media screen and (min-width: 520px) {
-  .nav-bar {
-    flex-wrap: nowrap;
-  }
 }
 
 @media screen and (min-width: 670px) {
@@ -41,5 +35,11 @@
 @media screen and (min-width: 800px) {
   .nav-link {
     font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-link {
+    font-size: 20px;
   }
 }

@@ -8,7 +8,7 @@
 
 p,
 a {
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Oxygen", "Trebuchet MS", sans-serif;
   color: #446b48;
 }
@@ -49,6 +49,6 @@ a {
   }
   p,
   a {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
