@@ -51,10 +51,8 @@ const SectionsList = () => {
 
       <Section sectionId="wedding" linkId="Wedding" header="Wedding">
         <p className="main-text">
-          <strong>
-            The wedding will take place on Wednesday 7th September 2022 at Cambo
-            Estate.
-          </strong>
+          The wedding will take place on{" "}
+          <strong>Wednesday 7th September 2022</strong> at Cambo Estate.
         </p>
         <p className="main-text">
           Both the ceremony and reception will be held at the same venue where
@@ -62,8 +60,11 @@ const SectionsList = () => {
         </p>
         <p className="main-text">
           All guests are invited to stay at Cambo for 2 nights (6th and 7th) -
-          see our <a href="#Venue">Venue & Accommodation</a> section for further
-          details.
+          see our{" "}
+          <a className="main-text" href="#Venue">
+            Venue & Accommodation
+          </a>{" "}
+          section for further details.
         </p>
 
         <p className="main-text">
@@ -90,10 +91,11 @@ const SectionsList = () => {
           <strong>Covid</strong>
         </p>
         <p className="main-text-group">
-          We'll follow Scottish Covid guidelines on the day. Feel free to wear a
-          mask if you wish and please be respectful of others when it comes to
-          physical distancing - even if you are comfortable with the situation,
-          others may not be.
+          We'll follow Scottish Covid guidelines on the day.
+        </p>
+        <p className="main-text-group">
+          Feel free to wear a mask if you wish and please be respectful of
+          others when it comes to physical distancing.
         </p>
         <br />
       </Section>
@@ -105,16 +107,17 @@ const SectionsList = () => {
       >
         <p className="main-text">
           Cambo is a traditional country house in Fife, a short drive from St
-          Andrews. The interior is decorated with an eccentric style, and the
-          grounds hold a walled garden, woodland walks, and a lovely beach.
+          Andrews. The interior is eccentrically decorated and the grounds hold
+          a walled garden, woodland walks, and a lovely beach.
         </p>
         <a className="main-text" href="https://www.camboestate.com/">
           www.camboestate.com
         </a>
         <p className="main-text">
-          We'll have exclusive use of Cambo throughout the wedding (including
-          the night before). All guests are welcome to stay one or both nights,
-          and we'd love to spend as much time with you all as possible!
+          We'll have exclusive use of the estate throughout the wedding
+          (including the night before). All guests are welcome to stay one or
+          both nights, and we'd love to spend as much time with you all as
+          possible!
         </p>
         <p className="main-text">
           On Tuesday 6th, check-in for guests will open at 4pm. We're hoping to
@@ -143,13 +146,12 @@ const SectionsList = () => {
         </p>
         <p className="main-text">
           The best way to get there is driving (or getting a taxi) from St
-          Andrews, with the journey only taking 15-20 min
+          Andrews, with the journey only taking 15-20 min.
         </p>
         <p className="main-text">
-          The drive from Edinburgh takes around 1 hr 40 min, along lovely
-          country roads. Please take city traffic and weather into account when
-          planning your journey, because strong winds can sometimes cause the
-          Forth bridges to close.
+          The drive from Edinburgh takes around 1 hr 40 min. Please take city
+          traffic and weather into account when planning your journey because
+          strong winds sometimes cause the Forth bridges to close.
         </p>
 
         <p className="main-text-group">
@@ -171,13 +173,13 @@ const SectionsList = () => {
 
       <Section sectionId="gifts" linkId="Gifts" header="Gift Registry">
         <p className="main-text">
-          We know it's cliché, but your company at our wedding is more than
+          We know it's cliché but your company at our wedding is more than
           enough!
         </p>
         <p className="main-text">
-          But for those who have asked about gifts, we'll be adding a link here
-          soon where you can buy cash gifts that will go into a fund for our
-          honeymoon
+          For those who have asked about gifts, we'll be adding a link here soon
+          where you can buy cash gifts that will go into various funds
+          (including our honeymoon).
         </p>
       </Section>
 
