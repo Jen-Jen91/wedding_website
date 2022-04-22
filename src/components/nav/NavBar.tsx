@@ -44,13 +44,13 @@ const NavBar = (props: INavBarProps) => {
           Home
         </a>
         <a className="nav-link" href="#Story">
-          {width >= 355 ? "Our Story" : "Story"}
+          {width >= 360 ? "Our Story" : "Story"}
         </a>
         <a className="nav-link" href="#Timetable">
           Timetable
         </a>
         <a className="nav-link" href="#Venue">
-          {width >= 355 ? "Venue & Accommodation" : "Venue"}
+          {width >= 360 ? "Venue & Accommodation" : "Venue"}
         </a>
       </div>
       <div className="row">
@@ -58,7 +58,7 @@ const NavBar = (props: INavBarProps) => {
           Travel
         </a>
         <a className="nav-link" href="#Gifts">
-          {width >= 355 ? "Gift Registry" : "Gifts"}
+          {width >= 360 ? "Gift Registry" : "Gifts"}
         </a>
         <a className="nav-link" href="#Photos">
           Photos
