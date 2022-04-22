@@ -35,18 +35,18 @@
 
 @media screen and (min-width: 670px) {
   .nav-link {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
 @media screen and (min-width: 800px) {
   .nav-link {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .nav-link {
-    font-size: 20px;
+    font-size: 18px;
   }
 }

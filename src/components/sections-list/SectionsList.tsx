@@ -1,4 +1,5 @@
 import Section from "../section/Section";
+import Timetable from "../timetable/Timetable";
 import "./SectionsList.css";
 
 const SectionsList = () => {
@@ -49,7 +50,7 @@ const SectionsList = () => {
         </p>
       </Section>
 
-      <Section sectionId="wedding" linkId="Wedding" header="Wedding">
+      <Section sectionId="timetable" linkId="Timetable" header="Timetable">
         <p className="main-text">
           The wedding will take place on{" "}
           <strong>Wednesday 7th September 2022</strong> at Cambo Estate.
@@ -58,46 +59,10 @@ const SectionsList = () => {
           Both the ceremony and reception will be held at the same venue where
           we hope to have lawn games, dancing, and a variety of food and drink.
         </p>
-        <p className="main-text">
-          All guests are invited to stay at Cambo for 2 nights (6th and 7th) -
-          see our{" "}
-          <a className="main-text" href="#Venue">
-            Venue & Accommodation
-          </a>{" "}
-          section for further details.
+        <p className="main-text-small">
+          The below times and order of events may change.
         </p>
-
-        <p className="main-text">
-          <em>
-            Check back here later for catering info and a more detailed
-            timetable of events.
-          </em>
-        </p>
-        <br />
-
-        <p className="main-text-group">
-          <strong>Dress code</strong>
-        </p>
-        <p className="main-text-group">
-          Formal wear - e.g. suit, dress, kilt, dressy separates.
-        </p>
-        <p className="main-text-group">
-          We're hoping to hold most of the ceremony and reception outside
-          (weather permitting) so please make sure to bring a warmer jacket /
-          coat / shawl to prepare for traditional Scottish weather!
-        </p>
-        <br />
-        <p className="main-text-group">
-          <strong>Covid</strong>
-        </p>
-        <p className="main-text-group">
-          We'll follow Scottish Covid guidelines on the day.
-        </p>
-        <p className="main-text-group">
-          Feel free to wear a mask if you wish and please be respectful of
-          others when it comes to physical distancing.
-        </p>
-        <br />
+        <Timetable />
       </Section>
 
       <Section
@@ -114,24 +79,47 @@ const SectionsList = () => {
           www.camboestate.com
         </a>
         <p className="main-text">
-          We'll have exclusive use of the estate throughout the wedding
-          (including the night before). All guests are welcome to stay one or
-          both nights, and we'd love to spend as much time with you all as
-          possible!
+          We'll have exclusive use of the estate throughout the wedding and all
+          guests are invited to stay for 2 nights. Most rooms will be in wings
+          of the house with shared bathrooms, a living area, and a small kitchen
+          where you can prepare any breakfast / lunch / tea / coffee. Some
+          guests will be set up in the private cottages separate from the main
+          house, situated at the edge of the grounds by the main road. Everyone
+          is free to explore the house and make use of any living areas,
+          bathrooms, and games rooms.
+        </p>
+        <br />
+
+        <p className="main-text-group">
+          <strong>Tuesday 6th</strong>
         </p>
         <p className="main-text">
-          On Tuesday 6th, check-in for guests will open at 4pm. We're hoping to
-          hold a BBQ in the courtyard the night before the wedding so please
-          bring your own food and any extra drinks you'd like.
+          Check-in for guests will open at <strong>4pm</strong>. <br />
+          We'll be setting up a casual BBQ in the courtyard so please bring your
+          own food and drinks if you'd like to join.
+        </p>
+        <br />
+
+        <p className="main-text-group">
+          <strong>Wednesday 7th</strong>
         </p>
         <p className="main-text">
-          On Thursday 8th, check-out for all guests will be at 10am.
+          Guests should arrive at the Walled Garden at
+          <strong> 1:30pm</strong> for the wedding ceremony. <br />
+          Some areas of the estate will be closed off in the morning to set up
+          for the day. Feel free to use the kitchens to make yourself breakfast
+          / lunch or grab some food at the Cambo Gardens Cafe.
+        </p>
+        <br />
+
+        <p className="main-text-group">
+          <strong>Thursday 8th</strong>
         </p>
         <p className="main-text">
-          The rooms are first-come, first-served, so please let us know which
-          nights (if any) you'd like to stay. The price is £50 per person per
-          night.
+          Check-out for all guests will be <strong>10am</strong>.
         </p>
+        <br />
+
         <div className="image-container">
           <a className="main-text" href="https://www.camboestate.com/gallery">
             <img src="/images/cambo.png" alt="cambo-estate" width="100%" />
@@ -145,23 +133,15 @@ const SectionsList = () => {
           Cambo Estate is on the East coast of Fife, Scotland.
         </p>
         <p className="main-text">
-          The best way to get there is driving (or getting a taxi) from St
-          Andrews, with the journey only taking 15-20 min.
+          Driving or getting a taxi from St Andrews only takes around
+          <strong> 15 - 20 min</strong>.
         </p>
         <p className="main-text">
-          The drive from Edinburgh takes around 1 hr 40 min. Please take city
-          traffic and weather into account when planning your journey because
-          strong winds sometimes cause the Forth bridges to close.
-        </p>
-
-        <p className="main-text-group">
-          <strong>Address</strong>
-        </p>
-        <p className="main-text-group">
-          Cambo House, Kingsbarns, St Andrews, Fife KY16 8QD
+          The drive from Edinburgh takes around <strong>1 hr 40 min</strong>.
+          Please take city traffic and weather into account when planning your
+          journey because strong winds can cause the Forth bridges to close.
         </p>
         <br />
-
         <iframe
           className="map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117112.85899146184!2d-2.770089990214859!3d56.29265202026646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4886f96bf7a8b2ff%3A0xd568ea835d0399fb!2sCambo%20Estate!5e0!3m2!1sen!2suk!4v1640792189669!5m2!1sen!2suk"
@@ -177,22 +157,93 @@ const SectionsList = () => {
           enough!
         </p>
         <p className="main-text">
-          For those who have asked about gifts, we'll be adding a link here soon
-          where you can buy cash gifts that will go into various funds
-          (including our honeymoon).
+          For those who have asked about gifts, we've set up a variety of funds
+          on The Wedding Shop where you can contribute to our honeymoon in
+          Mauritius, or donate to the charity Stonewall on our behalf.
         </p>
+        <a
+          className="main-text"
+          href="https://www.weddingshop.com/GiftList/jenandtomek"
+        >
+          www.weddingshop.com/GiftList/jenandtomek
+        </a>
       </Section>
 
       <Section sectionId="photos" linkId="Photos" header="Photos">
         <p className="main-text">
+          Please feel free to use your phones and cameras throughout the day -
+          we just ask that you don't take photos during the ceremony.
+        </p>
+        <p className="main-text">
           After the wedding, we'll upload both professional and guest photos to
-          a shared drive, which you'll all be able to access here.
+          a shared drive which you'll be able to access here.
+        </p>
+      </Section>
+
+      <Section sectionId="faq" linkId="FAQ" header="FAQ">
+        <p className="main-text">
+          <strong>Dress code</strong>
+        </p>
+        <p className="main-text-group">
+          Formal wear - suit, dress, kilt, dressy separates.
+        </p>
+        <p className="main-text-group">
+          We're hoping to hold most of the ceremony and reception outside
+          (weather permitting) so please make sure to bring a warmer jacket /
+          coat / shawl to prepare for traditional Scottish weather!
+        </p>
+        <br />
+
+        <p className="main-text">
+          <strong>Covid</strong>
+        </p>
+        <p className="main-text-group">
+          We'll follow Scottish Covid guidelines on the day.
+        </p>
+        <p className="main-text-group">
+          Feel free to wear a mask if you wish and please be respectful of
+          others when it comes to physical distancing.
+        </p>
+        <br />
+
+        <p className="main-text">
+          <strong>Catering</strong>
+        </p>
+        <p className="main-text-group">
+          Pizza Geeks will be setting up an outdoor oven to serve us a selection
+          of fresh pizzas. You'll be able to help yourselves to 3 main options
+          (including vegetarian and vegan).
+        </p>
+        <a className="main-text-group" href="https://www.pizzageeks.co.uk/">
+          www.pizzageeks.co.uk
+        </a>
+        <br />
+        <br />
+
+        <p className="main-text">
+          <strong>Parking</strong>
+        </p>
+        <p className="main-text-group">
+          After turning off the main road, follow the long driveway all the way
+          down to the end (towards the main house) and follow the signs for
+          parking. For the wedding day, we'd ask all cars to be parked in the
+          top field so we have more room for outdoor catering and photographs.
+        </p>
+        <br />
+
+        <p className="main-text">
+          <strong>Name Change</strong>
+        </p>
+        <p className="main-text-group">
+          We won't be changing our names after the wedding :)
         </p>
       </Section>
 
       <Section sectionId="contact" linkId="Contact" header="Contact">
         <p className="main-text">
           If you have any questions, please don't hesitate to give us a call.
+        </p>
+        <p className="main-text">
           You can also contact us via email at{" "}
           <a
             className="main-text"

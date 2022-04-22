@@ -7,7 +7,7 @@ interface INavBarProps {
 const NavBar = (props: INavBarProps) => {
   const width = props.screenWidth;
 
-  return width >= 610 ? (
+  return width >= 660 ? (
     <nav className="nav-bar">
       <a className="nav-link" href="#Home">
         Home
@@ -15,8 +15,8 @@ const NavBar = (props: INavBarProps) => {
       <a className="nav-link" href="#Story">
         Our Story
       </a>
-      <a className="nav-link" href="#Wedding">
-        Wedding
+      <a className="nav-link" href="#Timetable">
+        Timetable
       </a>
       <a className="nav-link" href="#Venue">
         Venue & Accommodation
@@ -29,6 +29,9 @@ const NavBar = (props: INavBarProps) => {
       </a>
       <a className="nav-link" href="#Photos">
         Photos
+      </a>
+      <a className="nav-link" href="#FAQ">
+        FAQ
       </a>
       <a className="nav-link" href="#Contact">
         Contact
@@ -43,8 +46,8 @@ const NavBar = (props: INavBarProps) => {
         <a className="nav-link" href="#Story">
           {width >= 355 ? "Our Story" : "Story"}
         </a>
-        <a className="nav-link" href="#Wedding">
-          Wedding
+        <a className="nav-link" href="#Timetable">
+          Timetable
         </a>
         <a className="nav-link" href="#Venue">
           {width >= 355 ? "Venue & Accommodation" : "Venue"}
@@ -59,6 +62,9 @@ const NavBar = (props: INavBarProps) => {
         </a>
         <a className="nav-link" href="#Photos">
           Photos
+        </a>
+        <a className="nav-link" href="#FAQ">
+          FAQ
         </a>
         <a className="nav-link" href="#Contact">
           Contact
