@@ -57,19 +57,14 @@ const SectionsList = () => {
       <Section sectionId="gifts" linkId="Gifts" header="Gift Registry">
         <p className="main-text">
           Thank you for all the cards, gifts, honeymoon funds, and charity
-          donations - you've been so generous and we really appreciate it.
+          donations - you've been so generous and we really appreciate it!
         </p>
         <p className="main-text">
-          The below is a link to The Wedding Shop where you can contribute to
-          our honeymoon in Mauritius, or donate to the charity Stonewall on our
-          behalf.
+          We had a fantastic time in Mauritius with great food, lots of rum, and
+          great experiences including snorkelling, whale watching, and a road
+          trip around the island. Your contributions also helped us make a £160
+          donation to the charity Stonewall.
         </p>
-        <a
-          className="main-text"
-          href="https://www.weddingshop.com/GiftList/jenandtomek"
-        >
-          www.weddingshop.com/GiftList/jenandtomek
-        </a>
       </Section>
 
       <Section sectionId="photos" linkId="Photos" header="Photos">
@@ -87,10 +82,6 @@ const SectionsList = () => {
         >
           J & T Wedding Photos
         </a>
-        <p className="main-text">
-          If you would like to add your own, please create a folder in the
-          'Guest Photos' section with your name as the title.
-        </p>
       </Section>
 
       <Section sectionId="contact" linkId="Contact" header="Contact">
