@@ -19,7 +19,7 @@ const Hero = () => {
       />
       <img
         className="hero-img"
-        src="/images/hero-3.jpg"
+        src="/images/hero-3.JPG"
         alt="jen-and-tomek-3"
         width="33.33%"
         height="auto"
