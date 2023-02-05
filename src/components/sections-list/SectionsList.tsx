@@ -78,7 +78,7 @@ const SectionsList = () => {
         </p>
         <a
           className="main-text"
-          href="https://1drv.ms/u/s!AmZoX3mXXKjhiRiuarm3uKhX8CMg?e=CjM4ik"
+          href="https://1drv.ms/u/s!AmZoX3mXXKjhiRjA4akPyTfJO0De?e=nl2M6Y"
         >
           J & T Wedding Photos
         </a>
