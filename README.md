@@ -6,3 +6,6 @@ The site provides useful information about the wedding including details of trav
 
 - To run the app locally in development mode, you can use _npm start_.
 - To view the deployed website, you can visit https://www.jenandtomekwedding.co.uk
+
+
+![image](https://github.com/Jen-Jen91/wedding_website/assets/42136185/c9259f20-ad2b-4cc2-8dba-622656bfa330)
